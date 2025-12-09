@@ -9,15 +9,15 @@
 }
 
 [data-theme="light"] {
-  --bg: #fffef9;
-  --bg-secondary: #f8f7f2;
+  --bg: #fafafa;
+  --bg-secondary: #f3f3f3;
   --text: #1a1a1a;
   --text-muted: #555;
   --link: #1a5fb4;
   --link-hover: #0d3a7a;
-  --code-bg: #f3f2ed;
-  --code-border: #e5e4df;
-  --border: #e0e0e0;
+  --code-bg: #f0f0f0;
+  --code-border: #e0e0e0;
+  --border: #ddd;
   --highlight: #fff3cd;
 }
 
