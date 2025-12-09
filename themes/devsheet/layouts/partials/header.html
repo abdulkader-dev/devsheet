@@ -1,0 +1,9 @@
+<header>
+  <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Params.author | default .Site.Title }}</a>
+  <nav>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">☾</button>
+    <a href="{{ .Site.BaseURL }}blog/">blog</a>
+    <a href="{{ .Site.BaseURL }}projects/">projects</a>
+    <a href="{{ .Site.BaseURL }}about/">about</a>
+  </nav>
+</header>
